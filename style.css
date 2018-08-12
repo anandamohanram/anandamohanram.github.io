@@ -1,0 +1,15 @@
+.navbar--title-main{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 14px;
+	color: #ffffff; 
+}
+
+#map{
+	width: 100%;
+	height: 100%;
+}
+
+aside{
+	height: 600px;
+}
