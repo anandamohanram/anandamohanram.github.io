@@ -7,9 +7,24 @@
 
 #map{
 	width: 100%;
-	height: 100%;
+	height: 350px;
 }
 
 aside{
 	height: 600px;
+}
+
+.caption{
+	text-align: center;
+	color: darkgreen;
+	align-items: center;
+	align-self: auto;
+}
+
+body{
+	margin: 0%;
+}
+
+.container-fluid{
+	margin-top: 80px;
 }
