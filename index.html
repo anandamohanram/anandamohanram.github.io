@@ -41,10 +41,10 @@
         <a class="nav-link" href="#">Education</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> -->
   </div>
 </nav>
 
@@ -130,6 +130,9 @@
 <aside class="col-3">
     <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="anandamohanram">
       <a class="LI-simple-link" href='https://nz.linkedin.com/in/anandamohanram?trk=profile-badge'>Ananda Mohanram</a></div>
+    
+    <div id="address"> Ph. 0224615592 <br> anandamohanram@gmail.com <br> 1A Donegal Street <br> Avondale, Auckland </div>
+
     <div id="map"></div>
 </aside>
 </div>
@@ -147,7 +150,7 @@
             var avondale = {lat: -36.8985, lng: 174.6967};
           // The map, centered at Uluru
             var map = new google.maps.Map(
-              document.getElementById('map'), {zoom: 10, center: avondale});
+              document.getElementById('map'), {zoom: 11, center: avondale});
           // The marker, positioned at Uluru
             var marker = new google.maps.Marker({position: avondale, map: map});
         }

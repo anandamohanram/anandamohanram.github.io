@@ -5,21 +5,34 @@
 	color: #ffffff; 
 }
 
-#map{
-	width: 300px;
-	height: 350px;
-	margin: auto;
-}
-
 aside{
 	text-align: center;
-	height: 600px;
+	background-color: #313335;
+	margin-top: -20px;
+	position: absolute;	
 }
 
 
 .LI-profile-badge{
+	margin: 35px auto;
 	width: 300px;
+	box-shadow: 3px 2px 8px 2px #000000;
+}
+
+#address{
+	color: #ffffff;
+	text-align: right;
+	width: 300px;
+	margin:35px auto;
+	padding: 10px;
+	box-shadow: 3px 2px 8px 2px #000000;
+}
+
+#map{
+	width: 300px;
+	height: 250px;
 	margin: auto;
+	box-shadow: 3px 2px 8px 2px #000000;
 }
 
 .caption{
