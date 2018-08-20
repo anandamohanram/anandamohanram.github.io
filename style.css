@@ -5,34 +5,36 @@
 	color: #ffffff; 
 }
 
+.img-thumbnail{
+opacity: 0.2;
+}
+
 aside{
 	text-align: center;
 	background-color: #313335;
-	margin-top: -20px;
-	position: absolute;	
+	margin-top: 0px;
 }
 
 
 .LI-profile-badge{
 	margin: 35px auto;
-	max-width: 300px;
-	box-shadow: 3px 2px 8px 2px #000000;
+	max-width: 450px;
+	/* box-shadow: 3px 2px 8px 2px #000000; */
 }
 
 #address{
 	color: #ffffff;
 	text-align: right;
-	max-width: 300px;
-	margin:35px auto;
+	margin: auto;
 	padding: 10px;
-	box-shadow: 3px 2px 8px 2px #000000;
+	max-width: 450px;	
 }
 
 #map{
-	max-width: 300px;
+	
 	height: 250px;
-	margin: auto;
-	box-shadow: 3px 2px 8px 2px #000000;
+	margin-top: 20px;
+	
 }
 
 .caption{
@@ -47,5 +49,7 @@ body{
 }
 
 .container-fluid{
-	margin-top: 80px;
+	margin: 60px 0px 0px 0px;
+	background-image: url(images/bg_Akl.jpg);
+	background-size: cover;
 }
