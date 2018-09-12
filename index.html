@@ -6,12 +6,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="0">
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #313335">
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+<nav id="navibar" class="navbar navbar-expand-lg fixed-top navbar-dark start">
 	<a class="navbar-brand" href="#">
 		<img src="images/am.png" width="75px">
 	</a>
@@ -24,13 +27,19 @@
       <li class="nav-item">
         <a class="nav-link navbar--title-main" href="#">Ananda Mohanram <div class="sr-only">(current)</div></a>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="#objective">Objective</a>
       </li>
       <li class="nav-item">
           <a class="nav-link" href="#experience">Experience</a>
-        </li>
-      <li class="nav-item dropdown">
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#achievements">Achievements</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#highlights">Highlights</a>
+      </li>  
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
         </a>
@@ -43,24 +52,27 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Education</a>
-      </li>
+      </li> -->
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> -->
   </div>
 </nav>
 
-<div class="container-fluid">
+<div class="landing">
+  <div><h1>Hello !</h1></div>
+</div>
 
-
-
+<div class="container-fluid" style="margin-top:0px">
   
 <div class="row">
   <section id="content" class="col-xl-9"> 
 
-        <div id=objective class="container-fluid">
+        <div id="objective" class="container-fluid">
+           
+            
           <h3>Objective</h3> <br />
           <p>
             Being a passionate front-end developer with 3+ years of experience in the ICT industry, I am Highly
@@ -72,13 +84,13 @@
         </div>
         
         
-        <div id=experience class="container-fluid">
+        <div id="experience" class="container-fluid">
           <h3>Experience</h3> <br />
           <div>
             <div class="expTitleWrapper">
             <div class="expTitle">
-              <h5>Anderson Corp, USA </h5><h9>| MAR 2015 - JULY 2017 </h9>
-              Senior Software Engineer - Capgemini, India
+              <h5>Anderson Corp, USA </h5> <sup>MAR 2015 - JULY 2017</sup>
+              <h6>Senior Software Engineer - Capgemini, India</h6>
             </div>
             <div>
               <img src="https://www.capgemini.com/wp-content/uploads/2017/10/cg_logo.jpg" width="200px;"/>
@@ -122,8 +134,11 @@
             <br />
             <div class="expTitleWrapper">
             <div class="expTitle">
-                Tyco EMEA, Germany | JULY 2014 - MAR 2015
-                Software Engineer – IGATE Global solutions, India
+                <h5>Tyco EMEA, Germany</h5> <sup> JULY 2014 - MAR 2015 </sup> 
+                <h6>Software Engineer – IGATE Global solutions, India</h6>
+            </div>
+            <div>
+              <img src="https://proxap.files.wordpress.com/2015/07/igate__-_hi_res.jpg" alt="IGATE" width="150px">
             </div>
           </div>
             <p>
@@ -144,6 +159,52 @@
               
             </p>
           </div>
+
+          <div id="achievements" class="container-fluid">
+              <h3>Achievements</h3><br>
+              Created POCs for upcoming projects using JavaScript frameworks like ReactJs. <br />
+              Successfully trained new associates and team members on the business objectives.<br />
+              Pat on the Back Award-2016 for best performance during UAT.<br />
+              Promoted to the role of Senior Software Engineer/Analyst within a year of joining the organization.
+    
+          </div>
+          
+<!-- 
+          Education
+GRADUATE DIPLOMA IN COMPUTING | JULY 2017 - JULY 2018
+Unitec Institute of Technology, Auckland, New Zealand
+
+CGPA: 7.25/9.00
+
+
+BACHELOR OF TECHNOLOGY | JULY 2010 - JULY 2014
+SRM University, Chennai, India
+
+CGPA: 8.66/10.00 -->
+
+<div id="highlights" class="container-fluid">
+    <h3>Highlights</h3><br>
+
+Passion for the digital industry. <br />
+Experienced in using Linux as a development environment.<br />
+Experienced working with multicultural clients from different time zones (Germany and USA).<br />
+A self-learner who can quickly adapt to different technologies.<br />
+Excellent written and verbal communication skill.<br />
+Attention to detail and responsiveness of the product.<br />
+Related courses
+<ul><li>Internet and Website Development – A+ </li>
+<li>Web Application Development – A </li>
+<li>Cloud Application Design and Development – A- </li>
+<li>Information systems and analysis – A- </li> </ul>
+</li>
+</div>
+
+
+
+
+
+
+
         
 
 
@@ -204,37 +265,26 @@
     <div class="LI-profile-badge col-md-6"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="anandamohanram">
       <a class="LI-simple-link" href='https://nz.linkedin.com/in/anandamohanram?trk=profile-badge'>Ananda Mohanram</a></div>
     
-    <div id="address" class="col"> Ph. 0224615592  <br> 1A Donegal Street <br> Avondale, Auckland <br> anandamohanram@gmail.com <br>
-      <iframe id="map" frameborder="0" style="border:0"
-      src="https://www.google.com/maps/embed/v1/search?q=avondale&key=AIzaSyAlKaxrqCqy8PlwQPKUISlcDl83Wxn5HLw" allowfullscreen></iframe>
-     </div>
+    <div id="address" class="col">
+      <div id="addressText">Ph. 0224615592  <br> 1A Donegal Street <br> Avondale, Auckland 
+      <br> anandamohanram@gmail.com <br>
+      </div>
+      
+      <iframe
+        id=map
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBbA4QdBMFgXVxu1y_eM3YkAx6TpMAz4UU
+          &q=Donegal+Street,Avondale" allowfullscreen>
+      </iframe>
+    
+    </div>
   </div>  
 </aside>
 </div>
 </div>
-<footer> &COPY; Ananda Guruparan Mohanram &Congruent; 2018</footer>
-<script>
-    $(document).ready(function(){
-        $("button").click(function(){
-            $("#content").load("education.html");
-        });
-    });
-</script>
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    <script async defer
-    src="https://www.google.com/maps/embed/v1/search?q=avondale&key=AIzaSyC-iXmM-NLHilj7uE6E2tjAsdVlS3FrV-c">
-    </script>
-    <script>
-        // Initialize and add the map
-        function initMap() {
-          // The location of Uluru
-            var avondale = {lat: -36.8985, lng: 174.6967};
-          // The map, centered at Uluru
-            var map = new google.maps.Map(
-              document.getElementById('map'), {zoom: 11, center: avondale});
-          // The marker, positioned at Uluru
-            var marker = new google.maps.Marker({position: avondale, map: map});
-        }
-          </script>
+<footer> &COPY; Ananda Guruparan Mohanram &Congruent; 2018 </footer>
+
+
+<script src="script.js"></script>
 </body>
 </html>
