@@ -11,7 +11,7 @@ body{
 
 .landing{
 	height: 100vh;
-	background: url('./images/bg_Akl.jpg') no-repeat center fixed;
+	background: url('images/bg_Akl.jpg') no-repeat center fixed;
 	background-size: cover;
 	display: flex;
 	color: #ffffff;
