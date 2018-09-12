@@ -11,7 +11,7 @@ body{
 
 .landing{
 	height: 100vh;
-	background: url('./images/bg_Akl.jpg') no-repeat center fixed;
+	background: url('images/bg_Akl.jpg') no-repeat center fixed;
 	background-size: cover;
 	display: flex;
 	color: #ffffff;
@@ -80,7 +80,8 @@ footer{
 
 .expTitleWrapper{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 	box-shadow: 2px 2px 2px #00000041;
 	border: 0.5px solid #ccc;
 	margin-bottom: 30px;
@@ -88,6 +89,6 @@ footer{
 	padding: 20px;
 }
 .expTitle{
-	width: 500px;
+	width: 600px;
 	padding: 10px;
 }
